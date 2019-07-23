@@ -5057,7 +5057,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <instance part="GND9" gate="1" x="144.78" y="-33.02" rot="R180">
 <attribute name="VALUE" x="147.32" y="-30.48" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="TH1" gate="G$1" x="66.04" y="-38.1"/>
+<instance part="TH1" gate="G$1" x="81.28" y="-33.02" rot="R180"/>
 <instance part="SV1" gate="1" x="63.5" y="106.68">
 <attribute name="VALUE" x="59.69" y="99.06" size="1.778" layer="96"/>
 <attribute name="NAME" x="59.69" y="112.522" size="1.778" layer="95"/>
@@ -5096,7 +5096,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <attribute name="NAME" x="118.999" y="-41.021" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="118.999" y="-37.211" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="TH2" gate="G$1" x="66.04" y="0"/>
+<instance part="TH2" gate="G$1" x="78.74" y="5.08" rot="R180"/>
 <instance part="TH3" gate="G$1" x="81.28" y="40.64" rot="R180"/>
 <instance part="J1" gate="G$1" x="104.14" y="-45.72" rot="R90">
 <attribute name="NAME" x="99.06" y="-35.56" size="1.778" layer="95" rot="R90" align="center"/>
@@ -5304,9 +5304,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="12.7" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
 <label x="83.82" y="15.24" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="TH2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="2.54" x2="73.66" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="12.7" x2="83.82" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="TH2" gate="G$1" pin="1"/>
+<wire x1="71.12" y1="5.08" x2="71.12" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="T2+" class="0">
@@ -5325,9 +5325,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="-7.62" x2="83.82" y2="-10.16" width="0.1524" layer="91"/>
 <label x="83.82" y="-10.16" size="1.016" layer="95" rot="R270" xref="yes"/>
-<pinref part="TH2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="0" x2="73.66" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="73.66" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="-7.62" x2="83.82" y2="-7.62" width="0.1524" layer="91"/>
+<pinref part="TH2" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="-7.62" x2="71.12" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="T1+" class="0">
@@ -5652,9 +5652,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="-45.72" x2="83.82" y2="-48.26" width="0.1524" layer="91"/>
 <label x="83.82" y="-48.26" size="1.016" layer="95" rot="R270" xref="yes"/>
-<pinref part="TH1" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="-38.1" x2="73.66" y2="-45.72" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-45.72" x2="83.82" y2="-45.72" width="0.1524" layer="91"/>
+<pinref part="TH1" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="-45.72" x2="73.66" y2="-35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="+"/>
@@ -5673,9 +5673,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="-25.4" x2="83.82" y2="-22.86" width="0.1524" layer="91"/>
 <label x="83.82" y="-22.86" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="TH1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="-35.56" x2="73.66" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="-25.4" x2="83.82" y2="-25.4" width="0.1524" layer="91"/>
+<pinref part="TH1" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="-33.02" x2="73.66" y2="-25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="-"/>

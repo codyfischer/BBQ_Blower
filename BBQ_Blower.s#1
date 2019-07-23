@@ -5097,7 +5097,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <attribute name="VALUE" x="118.999" y="-37.211" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="TH2" gate="G$1" x="66.04" y="0"/>
-<instance part="TH3" gate="G$1" x="66.04" y="38.1"/>
+<instance part="TH3" gate="G$1" x="81.28" y="40.64" rot="R180"/>
 <instance part="J1" gate="G$1" x="104.14" y="-45.72" rot="R90">
 <attribute name="NAME" x="99.06" y="-35.56" size="1.778" layer="95" rot="R90" align="center"/>
 <attribute name="VALUE" x="109.22" y="-35.56" size="1.778" layer="96" rot="R90" align="center"/>
@@ -5346,9 +5346,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="30.48" x2="83.82" y2="27.94" width="0.1524" layer="91"/>
 <label x="83.82" y="27.94" size="1.016" layer="95" rot="R270" xref="yes"/>
-<pinref part="TH3" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="38.1" x2="73.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="30.48" x2="83.82" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="TH3" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="30.48" x2="73.66" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="T1-" class="0">
@@ -5367,9 +5367,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <segment>
 <wire x1="83.82" y1="50.8" x2="83.82" y2="53.34" width="0.1524" layer="91"/>
 <label x="83.82" y="53.34" size="1.016" layer="95" rot="R90" xref="yes"/>
-<pinref part="TH3" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="40.64" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="73.66" y1="50.8" x2="83.82" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="TH3" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="40.64" x2="73.66" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="BLOWER_1" class="0">
@@ -5598,6 +5598,11 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <wire x1="175.26" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <label x="180.34" y="81.28" size="1.016" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="SCK"/>
+<wire x1="363.855" y1="31.75" x2="351.155" y2="31.75" width="0.1524" layer="91"/>
+<label x="352.425" y="31.75" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SO" class="0">
 <segment>
@@ -5616,9 +5621,14 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="182.88" y="-38.1" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D10_-_TXD0_/_GPIO1"/>
-<wire x1="175.26" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
-<label x="180.34" y="76.2" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D9_-__RXD0_/_GPIO3"/>
+<wire x1="175.26" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
+<label x="180.34" y="78.74" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="MISO"/>
+<wire x1="363.855" y1="29.21" x2="351.155" y2="29.21" width="0.1524" layer="91"/>
+<label x="352.425" y="29.21" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="CS_3" class="0">
@@ -5628,9 +5638,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="182.88" y="-40.64" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D9_-__RXD0_/_GPIO3"/>
-<wire x1="175.26" y1="78.74" x2="180.34" y2="78.74" width="0.1524" layer="91"/>
-<label x="180.34" y="78.74" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D10_-_TXD0_/_GPIO1"/>
+<wire x1="175.26" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
+<label x="180.34" y="76.2" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="T3+" class="0">
@@ -5709,21 +5719,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="73.66" y="137.16" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="GPIO14" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="SCK"/>
-<wire x1="363.855" y1="31.75" x2="351.155" y2="31.75" width="0.1524" layer="91"/>
-<label x="352.425" y="31.75" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO12" class="0">
-<segment>
-<pinref part="U$5" gate="G$1" pin="MISO"/>
-<wire x1="363.855" y1="29.21" x2="351.155" y2="29.21" width="0.1524" layer="91"/>
-<label x="352.425" y="29.21" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="GPIO13" class="0">
+<net name="SI" class="0">
 <segment>
 <pinref part="U$5" gate="G$1" pin="MOSI"/>
 <wire x1="363.855" y1="26.67" x2="351.155" y2="26.67" width="0.1524" layer="91"/>
