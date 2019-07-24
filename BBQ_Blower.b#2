@@ -2241,8 +2241,12 @@ design rules under a new name.</description>
 <wire x1="76.343" y1="6.35" x2="77.9145" y2="8.89" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5795" y1="7.954" x2="76.343" y2="6.35" width="0" layer="19" extent="1-1"/>
 <wire x1="87.63" y1="17.018" x2="78.597" y2="16.51" width="0" layer="19" extent="1-1"/>
+<wire x1="22.098" y1="23.733" x2="28.575" y2="21.418" width="0" layer="19" extent="16-16"/>
 <wire x1="56.572" y1="5.954" x2="46.99" y2="11.938" width="0" layer="19" extent="1-1"/>
 <wire x1="56.5795" y1="19.954" x2="46.99" y2="11.938" width="0" layer="19" extent="1-1"/>
+<wire x1="23.876" y1="41.767" x2="22.098" y2="23.733" width="0" layer="19" extent="16-16"/>
+<wire x1="21.844" y1="59.293" x2="28.575" y2="56.978" width="0" layer="19" extent="16-16"/>
+<wire x1="46.736" y1="76.962" x2="57.15" y2="61.976" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SO_1">
 <contactref element="U1" pad="23"/>
@@ -2421,9 +2425,9 @@ design rules under a new name.</description>
 <wire x1="57.15" y1="41.656" x2="86.106" y2="47.498" width="0" layer="19" extent="1-1"/>
 <wire x1="57.15" y1="64.516" x2="57.15" y2="41.656" width="0" layer="19" extent="1-1"/>
 <wire x1="28.067" y1="39.452" x2="57.15" y2="41.656" width="0" layer="19" extent="16-16"/>
-<wire x1="24.765" y1="56.978" x2="28.006" y2="39.513" width="0" layer="19" extent="16-16"/>
+<wire x1="24.765" y1="56.978" x2="23.876" y2="39.513" width="0" layer="19" extent="16-16"/>
 <wire x1="21.844" y1="57.039" x2="24.765" y2="56.978" width="0" layer="19" extent="16-16"/>
-<wire x1="24.704" y1="21.479" x2="28.006" y2="39.513" width="0" layer="19" extent="16-16"/>
+<wire x1="24.704" y1="21.479" x2="23.876" y2="39.513" width="0" layer="19" extent="16-16"/>
 <wire x1="82.55" y1="17.018" x2="86.106" y2="47.498" width="0" layer="19" extent="1-1"/>
 <wire x1="76.343" y1="16.51" x2="82.55" y2="17.018" width="0" layer="19" extent="1-1"/>
 <wire x1="72.5795" y1="13.954" x2="76.343" y2="16.51" width="0" layer="19" extent="1-1"/>
