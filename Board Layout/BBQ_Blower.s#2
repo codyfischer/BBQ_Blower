@@ -5440,6 +5440,11 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="177.8" y="71.12" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
+<pinref part="JP1" gate="G$1" pin="10"/>
+<wire x1="68.58" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
+<label x="73.66" y="149.86" size="1.016" layer="95" xref="yes"/>
+</segment>
+<segment>
 <pinref part="SV1" gate="1" pin="6"/>
 <wire x1="55.88" y1="109.22" x2="53.34" y2="109.22" width="0.1524" layer="91"/>
 <label x="50.8" y="109.22" size="1.778" layer="95"/>
@@ -5462,11 +5467,6 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <pinref part="U1" gate="G$1" pin="VDD3V3(1)"/>
 <wire x1="96.52" y1="81.28" x2="93.98" y2="81.28" width="0.1524" layer="91"/>
 <label x="93.98" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="8"/>
-<wire x1="68.58" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
-<label x="73.66" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -5536,9 +5536,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="93.98" y="78.74" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="JP1" gate="G$1" pin="9"/>
-<wire x1="68.58" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
-<label x="73.66" y="147.32" size="1.016" layer="95" xref="yes"/>
+<pinref part="JP1" gate="G$1" pin="8"/>
+<wire x1="68.58" y1="144.78" x2="73.66" y2="144.78" width="0.1524" layer="91"/>
+<label x="73.66" y="144.78" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -5546,6 +5546,11 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <pinref part="U1" gate="G$1" pin="NRST"/>
 <wire x1="96.52" y1="76.2" x2="93.98" y2="76.2" width="0.1524" layer="91"/>
 <label x="93.98" y="76.2" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="JP1" gate="G$1" pin="9"/>
+<wire x1="68.58" y1="147.32" x2="73.66" y2="147.32" width="0.1524" layer="91"/>
+<label x="73.66" y="147.32" size="1.016" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="SV1" gate="1" pin="5"/>
@@ -5561,11 +5566,6 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <pinref part="U1" gate="G$1" pin="RESV"/>
 <wire x1="96.52" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
 <label x="93.98" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
-<pinref part="JP1" gate="G$1" pin="10"/>
-<wire x1="68.58" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
-<label x="73.66" y="149.86" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -5787,6 +5787,7 @@ End launch SMA connector. The paste layer has been removed so that the connector
 </sheets>
 <errors>
 <approved hash="204,1,96.52,83.82,U1,GND(1),,,,"/>
+<approved hash="204,1,96.52,81.28,U1,VDD3V3(1),,,,"/>
 <approved hash="204,1,175.26,91.44,U1,GND(4),,,,"/>
 <approved hash="206,1,175.26,43.18,SO,,,,,"/>
 <approved hash="206,1,175.26,2.54,SO,,,,,"/>
