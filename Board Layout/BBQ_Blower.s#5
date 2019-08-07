@@ -5552,6 +5552,11 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <wire x1="231.775" y1="72.39" x2="219.075" y2="72.39" width="0.1524" layer="91"/>
 <label x="220.345" y="72.39" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="RESV"/>
+<wire x1="96.52" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
+<label x="93.98" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="SCK" class="0">
 <segment>
@@ -5770,13 +5775,6 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <pinref part="U1" gate="G$1" pin="D11_-_GPIO9_/_SD_D2"/>
 <wire x1="96.52" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
 <label x="93.98" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="U1" gate="G$1" pin="RESV"/>
-<wire x1="96.52" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="93.98" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

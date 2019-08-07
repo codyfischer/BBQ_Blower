@@ -5717,9 +5717,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="220.345" y="69.85" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D2_-_GPIO4"/>
-<wire x1="175.26" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
-<label x="177.8" y="101.6" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D4_-_GPIO2_/_TXD1"/>
+<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="177.8" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DIO1" class="0">
@@ -5741,9 +5741,9 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <label x="258.445" y="72.39" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D4_-_GPIO2_/_TXD1"/>
-<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<label x="177.8" y="96.52" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D2_-_GPIO4"/>
+<wire x1="175.26" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
+<label x="177.8" y="101.6" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="CS_LORA" class="0">

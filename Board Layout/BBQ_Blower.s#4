@@ -5518,6 +5518,11 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <wire x1="71.12" y1="106.68" x2="73.66" y2="106.68" width="0.1524" layer="91"/>
 <label x="73.66" y="106.68" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$5" gate="G$1" pin="SCK"/>
+<wire x1="231.775" y1="80.01" x2="219.075" y2="80.01" width="0.1524" layer="91"/>
+<label x="220.345" y="80.01" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="EN" class="0">
 <segment>
@@ -5578,11 +5583,6 @@ End launch SMA connector. The paste layer has been removed so that the connector
 <pinref part="U1" gate="G$1" pin="D8_-_GPIO15_/_TXD2_/_HSPICS"/>
 <wire x1="175.26" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <label x="180.34" y="81.28" size="1.016" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="U$5" gate="G$1" pin="SCK"/>
-<wire x1="231.775" y1="80.01" x2="219.075" y2="80.01" width="0.1524" layer="91"/>
-<label x="220.345" y="80.01" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SO" class="0">

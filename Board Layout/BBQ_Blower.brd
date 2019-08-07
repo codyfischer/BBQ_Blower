@@ -2402,9 +2402,7 @@ design rules under a new name.</description>
 <signal name="BLOWER1">
 <contactref element="D4" pad="A"/>
 <contactref element="Q2" pad="2"/>
-<contactref element="M2" pad="1"/>
-<wire x1="47.752" y1="75.692" x2="47.752" y2="72.136" width="1.016" layer="1"/>
-<wire x1="47.752" y1="72.136" x2="42.418" y2="66.802" width="1.016" layer="1"/>
+<wire x1="42.418" y1="66.802" x2="47.752" y2="72.136" width="1.016" layer="1"/>
 <wire x1="42.418" y1="66.802" x2="36.068" y2="66.802" width="1.016" layer="1"/>
 <wire x1="18.796" y1="77.216" x2="24.384" y2="71.628" width="1.016" layer="16"/>
 <wire x1="18.796" y1="77.216" x2="18.796" y2="77.724" width="1.016" layer="16"/>
@@ -2414,6 +2412,8 @@ design rules under a new name.</description>
 <wire x1="31.75" y1="68.834" x2="33.782" y2="66.802" width="1.016" layer="16"/>
 <wire x1="33.782" y1="66.802" x2="36.068" y2="66.802" width="1.016" layer="16"/>
 <wire x1="31.75" y1="70.358" x2="31.75" y2="68.834" width="1.016" layer="16"/>
+<contactref element="M2" pad="1"/>
+<wire x1="47.752" y1="72.136" x2="47.752" y2="75.692" width="1.016" layer="1"/>
 </signal>
 <signal name="D4">
 <contactref element="JP1" pad="11"/>
