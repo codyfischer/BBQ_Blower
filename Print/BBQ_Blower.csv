@@ -1,0 +1,16 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"3";"";"CONN_025MM";"SCREWTERMINAL-5MM-2";"TH1, TH2, TH3";"Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections";"";
+"1";"";"MA03-2";"MA03-2";"ICSP";"PIN HEADER";"";
+"1";"";"PINHD-1X12";"1X12";"JP1";"PIN HEADER";"";
+"1";"10uF";"C-EU025-050X050";"C025-050X050";"C3";"CAPACITOR, European symbol";"";
+"1";"10uF";"C-EUC0805K";"C0805K";"C5";"CAPACITOR, European symbol";"";
+"1";"113990105";"113990105";"DIP2286W64P254L4826H735Q30N";"NODE-MCU";"NodeMCU DEVKIT V1.0";"";
+"2";"1N4004";"1N4004";"DO41-10";"D3, D4";"DIODE";"";
+"4";"1uF";"C-EUC0805K";"C0805K";"C1, C2, C6, C7";"CAPACITOR, European symbol";"";
+"1";"ANTENNATINY";"ANTENNATINY";"SMA_UFL_PAD_TINY";"J$2";"SMA Antenna Connector";"";
+"2";"BUZ10";"BUZ10";"TO220";"Q1, Q2";"N-Channel Enhancement MOSFET 50V; 20A; 0,080Ohm";"";
+"4";"JST-PH_2-PIN_HEADER";"JST-PH_2-PIN_HEADER";"JST_B2B-PH_HEADER";"BLOWER1, BLOWER2, POWER, SWITCH";"2-pin JST PH Shrouded Header, top entry";"";
+"1";"JST-PH_4-PIN_HEADER";"JST-PH_4-PIN_HEADER";"JST_B4B-PH_HEADER";"OLED";"4-pin JST PH Shrouded Header, top entry";"";
+"3";"MAX31855RASA+";"MAX31855RASA+";"SOIC127P600X175-8N";"IC1, IC2, IC3";"Thermocouple-to-Digital, type R SOIC8 Maxim MAX31855RASA+, Thermocouple Amplifier, 3.3 V, 8-Pin SOIC";"";
+"3";"PCC-SMP-K-100-R-ROHS";"PCC-SMP-K-100-R-ROHS";"PCC-SMP";"J1, J3, J4";"NEWPORT ELECTRONICS - PCC-SMP-K-100-R-ROHS - CIRCUIT BOARD THERMOCOUPLE, K TYPE";"";
+"1";"RFM95";"RFM95";"RFM95";"U$5";"";"";

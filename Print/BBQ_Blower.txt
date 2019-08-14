@@ -1,0 +1,32 @@
+Partlist exported from C:/Users/fis0139/Source/GitHub/BBQ_Blower/BBQ_Blower.sch at 8/13/2019 3:32 PM
+
+Part     Value                Device               Package                     Description                                                                                                     
+BLOWER1  JST-PH_2-PIN_HEADER  JST-PH_2-PIN_HEADER  JST_B2B-PH_HEADER           2-pin JST PH Shrouded Header, top entry                                                                         
+BLOWER2  JST-PH_2-PIN_HEADER  JST-PH_2-PIN_HEADER  JST_B2B-PH_HEADER           2-pin JST PH Shrouded Header, top entry                                                                         
+C1       1uF                  C-EUC0805K           C0805K                      CAPACITOR, European symbol                                                                                      
+C2       1uF                  C-EUC0805K           C0805K                      CAPACITOR, European symbol                                                                                      
+C3       10uF                 C-EU025-050X050      C025-050X050                CAPACITOR, European symbol                                                                                      
+C5       10uF                 C-EUC0805K           C0805K                      CAPACITOR, European symbol                                                                                      
+C6       1uF                  C-EUC0805K           C0805K                      CAPACITOR, European symbol                                                                                      
+C7       1uF                  C-EUC0805K           C0805K                      CAPACITOR, European symbol                                                                                      
+D3       1N4004               1N4004               DO41-10                     DIODE                                                                                                           
+D4       1N4004               1N4004               DO41-10                     DIODE                                                                                                           
+IC1      MAX31855RASA+        MAX31855RASA+        SOIC127P600X175-8N          Thermocouple-to-Digital, type R SOIC8 Maxim MAX31855RASA+, Thermocouple Amplifier, 3.3 V, 8-Pin SOIC            
+IC2      MAX31855RASA+        MAX31855RASA+        SOIC127P600X175-8N          Thermocouple-to-Digital, type R SOIC8 Maxim MAX31855RASA+, Thermocouple Amplifier, 3.3 V, 8-Pin SOIC            
+IC3      MAX31855RASA+        MAX31855RASA+        SOIC127P600X175-8N          Thermocouple-to-Digital, type R SOIC8 Maxim MAX31855RASA+, Thermocouple Amplifier, 3.3 V, 8-Pin SOIC            
+ICSP                          MA03-2               MA03-2                      PIN HEADER                                                                                                      
+J$2      ANTENNATINY          ANTENNATINY          SMA_UFL_PAD_TINY            SMA Antenna Connector                                                                                           
+J1       PCC-SMP-K-100-R-ROHS PCC-SMP-K-100-R-ROHS PCC-SMP                     NEWPORT ELECTRONICS - PCC-SMP-K-100-R-ROHS - CIRCUIT BOARD THERMOCOUPLE, K TYPE                                 
+J3       PCC-SMP-K-100-R-ROHS PCC-SMP-K-100-R-ROHS PCC-SMP                     NEWPORT ELECTRONICS - PCC-SMP-K-100-R-ROHS - CIRCUIT BOARD THERMOCOUPLE, K TYPE                                 
+J4       PCC-SMP-K-100-R-ROHS PCC-SMP-K-100-R-ROHS PCC-SMP                     NEWPORT ELECTRONICS - PCC-SMP-K-100-R-ROHS - CIRCUIT BOARD THERMOCOUPLE, K TYPE                                 
+JP1                           PINHD-1X12           1X12                        PIN HEADER                                                                                                      
+NODE-MCU 113990105            113990105            DIP2286W64P254L4826H735Q30N NodeMCU DEVKIT V1.0                                                                                             
+OLED     JST-PH_4-PIN_HEADER  JST-PH_4-PIN_HEADER  JST_B4B-PH_HEADER           4-pin JST PH Shrouded Header, top entry                                                                         
+POWER    JST-PH_2-PIN_HEADER  JST-PH_2-PIN_HEADER  JST_B2B-PH_HEADER           2-pin JST PH Shrouded Header, top entry                                                                         
+Q1       BUZ10                BUZ10                TO220                       N-Channel Enhancement MOSFET 50V; 20A; 0,080Ohm                                                                 
+Q2       BUZ10                BUZ10                TO220                       N-Channel Enhancement MOSFET 50V; 20A; 0,080Ohm                                                                 
+SWITCH   JST-PH_2-PIN_HEADER  JST-PH_2-PIN_HEADER  JST_B2B-PH_HEADER           2-pin JST PH Shrouded Header, top entry                                                                         
+TH1                           CONN_025MM           SCREWTERMINAL-5MM-2         Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+TH2                           CONN_025MM           SCREWTERMINAL-5MM-2         Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+TH3                           CONN_025MM           SCREWTERMINAL-5MM-2         Multi connection point. Often used as Generic Header-pin footprint for 0.1 inch spaced/style header connections 
+U$5      RFM95                RFM95                RFM95                                                                                                                                       
