@@ -5338,6 +5338,16 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <pinref part="OLED" gate="G$1" pin="1"/>
 <label x="134.62" y="132.08" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND(1)"/>
+<wire x1="96.52" y1="83.82" x2="93.98" y2="83.82" width="0.1524" layer="91"/>
+<label x="93.98" y="83.82" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="GND(4)"/>
+<wire x1="175.26" y1="91.44" x2="177.8" y2="91.44" width="0.1524" layer="91"/>
+<label x="177.8" y="91.44" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="CS_TF2" class="0">
 <segment>
@@ -5493,9 +5503,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <junction x="195.58" y="144.78"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="SPI_INT_/_SD_D1"/>
-<wire x1="96.52" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
-<label x="93.98" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D4_-_GPIO2_/_TXD1"/>
+<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
+<label x="177.8" y="96.52" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="BLOWER1" class="0">
@@ -5669,11 +5679,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="220.345" y="72.39" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="RESV"/>
-<wire x1="96.52" y1="101.6" x2="93.98" y2="101.6" width="0.1524" layer="91"/>
-<label x="93.98" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="G$1" pin="10"/>
 <wire x1="68.58" y1="149.86" x2="73.66" y2="149.86" width="0.1524" layer="91"/>
 <label x="73.66" y="149.86" size="1.016" layer="95" xref="yes"/>
@@ -5760,6 +5765,11 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="231.775" y1="74.93" x2="219.075" y2="74.93" width="0.1524" layer="91"/>
 <label x="220.345" y="74.93" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="G$1" pin="SPI_INT_/_SD_D1"/>
+<wire x1="96.52" y1="93.98" x2="93.98" y2="93.98" width="0.1524" layer="91"/>
+<label x="93.98" y="93.98" size="1.016" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="ANT" class="0">
 <segment>
@@ -5778,9 +5788,9 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <label x="220.345" y="69.85" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="D4_-_GPIO2_/_TXD1"/>
-<wire x1="175.26" y1="96.52" x2="177.8" y2="96.52" width="0.1524" layer="91"/>
-<label x="177.8" y="96.52" size="1.016" layer="95" xref="yes"/>
+<pinref part="U1" gate="G$1" pin="D11_-_GPIO9_/_SD_D2"/>
+<wire x1="96.52" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
+<label x="93.98" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="DIO1" class="0">
@@ -5821,11 +5831,6 @@ Mating cable assembly: Sparkfun &lt;a href="http://www.sparkfun.com/products/991
 <wire x1="257.175" y1="69.85" x2="261.62" y2="69.85" width="0.1524" layer="91"/>
 <wire x1="261.62" y1="69.85" x2="261.62" y2="68.58" width="0.1524" layer="91"/>
 <label x="261.62" y="68.58" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U1" gate="G$1" pin="D11_-_GPIO9_/_SD_D2"/>
-<wire x1="96.52" y1="96.52" x2="93.98" y2="96.52" width="0.1524" layer="91"/>
-<label x="93.98" y="96.52" size="1.016" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="HMISO" class="0">

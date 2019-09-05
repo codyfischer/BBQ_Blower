@@ -209,6 +209,14 @@ Rev: 1.0</text>
 <text x="33.528" y="16.002" size="1.778" layer="22" rot="MR0">-</text>
 <text x="33.528" y="35.306" size="1.778" layer="22" rot="MR0">-</text>
 <text x="33.528" y="54.356" size="1.778" layer="22" rot="MR0">-</text>
+<wire x1="8.89" y1="4.064" x2="86.36" y2="4.064" width="0.1524" layer="21"/>
+<wire x1="86.36" y1="4.064" x2="90.17" y2="7.874" width="0.1524" layer="21" curve="90"/>
+<wire x1="90.17" y1="7.874" x2="90.17" y2="76.454" width="0.1524" layer="21"/>
+<wire x1="90.17" y1="76.454" x2="86.868" y2="79.756" width="0.1524" layer="21" curve="90"/>
+<wire x1="86.868" y1="79.756" x2="8.89" y2="79.756" width="0.1524" layer="21"/>
+<wire x1="8.89" y1="79.756" x2="5.334" y2="76.2" width="0.1524" layer="21" curve="90"/>
+<wire x1="5.334" y1="76.2" x2="5.334" y2="7.62" width="0.1524" layer="21"/>
+<wire x1="5.334" y1="7.62" x2="8.89" y2="4.064" width="0.1524" layer="21" curve="90"/>
 </plain>
 <libraries>
 <library name="adafruit">
